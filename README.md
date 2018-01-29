@@ -1,5 +1,9 @@
 # ESP8266_Relay
 
+### lib1:https://github.com/knolleary/pubsubclient
+
+### lib2:https://github.com/marcoschwartz/aREST
+
 It’s now time to configure the ESP8266 board with this code. Make sure that you modified the WiFi name & password in the code, and that you gave the device an unique ID. Now, put your ESP8266 board in bootloader mode. On the Adafruit ESP8266, it’s as simple as pressing on the GPIO0 & Reset button at the same time, and then releasing the Reset button first.
 
 Then, upload the code to the board, and open the Serial monitor. You should see that the board is connecting to your WiFi, and then to aREST.io. This is the message you are looking for:
